@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Top 5 Sheffield</title>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="./groupproject.js"></script>
+  <script src="https://kit.fontawesome.com/a12bdcf857.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./groupproject.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+    <script>   
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+    </script>
+    
+    
+    
+    <nav>
+        <div class="navbar">
+    <ul>
+        <li> <div class="dropdown">
+            <button onmouseover="myFunction()" class="dropbtn"><i class="fas fa-bars"></i></button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="HomePage.html">Home</a>
+              <a href="Page 1 - Cafes - Lucy.html">Cafes</a>
+              <a href="Page 2 - Resteraunts - Harriet.html">Restaurants</a>
+              <a href="Page 3 - Bars&pubs - Ele.html">Bars and Pubs</a>
+              <a href="Page 4 - Nightlife - Amy.html">Nightclubs</a>
+              <a href="Submit_feedback.html">Submit Review</a>
+            </div>
+          </div></li>
+    <div class="nav">
+        <li><a class="active" href="HomePage.html"> <i class="fas fa-home"></i> Home</a></li>
+        <li><a href="Page 1 - Cafes - Lucy.html"> <i class="fas fa-coffee"></i> Cafes</a></li>
+        <li><a href="Page 2 - Resteraunts - Harriet.html"> <i class="fas fa-utensils"></i> Restaurants</a></li>
+        <li><a href="Page 3 - Bars&pubs - Ele.html"><i class="fas fa-glass-martini-alt"></i> Bars and Pubs</a></li>
+        <li><a href="Page 4 - Nightlife - Amy.html"> <i class="fas fa-moon"></i> Nightlife</a></li>
+        <li><a href="Submit_feedback.html"> <i class="fas fa-comment-alt"></i> Submit Review</a></li>
+    </div>
+    
+    </ul>
+    </div>
+    </nav>
+    <div class="image-container">
+        <div class="title_text">Top 5 Sheffield</div>
+      </div>
+
+    <main>
+        <div class="header_text">
+        <h1>About Us</h1>
+        Top 5 Sheffield is a guide to the personally judged five best experiences of any given category, within the Steel City. This website was conceived of by four like-minded individuals; students who share a passion for Sheffield and hope to show off it’s finest establishments. We strongly believe in the importance of supporting local businesses, as demonstrated by our selections, while never scrimping on quality.
+        <br>
+        Particularly during the Covid-19 pandemic, many residents and students in the city have not had the opportunity to experience what Sheffield has to offer; this website hopes to offer some guidance. Whether you’re a student looking for the best night out, or a couple searching for a restaurant to celebrate your anniversary, Top 5 Sheffield has it all.
+        <br>
+        Furthermore, with it’s interactive star-rating review system, we hope that the community will expand and improve our knowledge and appreciation of a wide-range of different establishments, while remaining focused on the local area. Have an exceptional cafe recommendation, or a favourite bar that you’re shocked hasn’t made it onto the list? Let everyone know about it!
+        <br>
+        The creators of this website would like to thank Code First Girls, for being the driving force behind this initiative. Code First Girls is a not for profit social enterprise dedicated to transforming tech by providing the skills, space, and inspiration for women to enter the workspace. Graduates of their programmes have become highly sought after developers and leaders in their fields. This website was conceived of by our group in the Autumn 2020 Introduction to Web Development course, based at The University of Sheffield.
+        <br>
+        </div>
+
+    <hr>
+
+    <div class="Image">
+        <h2>Top 5 Cafes in Sheffield</h2>
+        <a href="Page 1 - Cafes - Lucy.html">
+        <div class="container">
+            <img src="cafe.groupproject.png" alt="cafe" class="image" style="height: 400px; width: 600px;">
+        <div class="middle">
+            <div class="text">Cafes</div>
+        </div>
+        </div>
+    </a>
+    </div>
+    <hr>
+    <div class="Image">
+        <h2>Top 5 Restaurants in Sheffield</h2>
+        <a href="Page 2 - Resteraunts - Harriet.html">
+        <div class="container">
+            <img src="restaurant.groupproject.jpg" alt="restaurant" class="image" style="height: 400px; width: 600px;">
+        <div class="middle">
+            <div class="text">Restaurants</div>
+        </div>
+        </div>
+    </a>
+    </div>
+    <hr>
+    <div class="Image">
+        <h2>Top 5 Bars and Pubs in Sheffield</h2>
+        <a href="Page 3 - Bars&pubs - Ele.html">
+        <div class="container">
+            <img src="bar.groupproject.jpg" alt="bars" class="image" style="height: 400px; width: 600px;">
+        <div class="middle">
+            <div class="text">Bars and Pubs</div>
+        </div>
+        </div>
+    </a>
+    </div>
+    <hr>
+    <div class="Image">
+        <h2>Top 5 for Nightlife in Sheffield</h2>
+        <a href="Page 4 - Nightlife - Amy.html">
+        <div class="container">
+            <img src="nightclub.groupproject.jpg" alt="Nightlife" class="image" style="height: 400px; width: 600px;">
+        <div class="middle">
+            <div class="text">Nightlife</div>
+        </div>
+        </div>
+    </a>
+    </div>
+</main>
+
+</body>
+
+
+
+<footer>
+    <h5>Made with 🤍 by Lucy, Amy, Eleonora and Harriet @ Code First Girls</h5>
+    <h5><i class="fas fa-envelope"></i> Contact us: top5sheffield@gmail.com</h5>
+</footer>
+
+
+</html>

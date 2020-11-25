@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Top 5 Sheffield</title>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="./groupproject.js"></script>
+  <script src="https://kit.fontawesome.com/a12bdcf857.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./groupproject.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+    <script>   
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+    </script>
+    <nav>
+        <div class="navbar">
+    <ul>
+        <li> <div class="dropdown">
+            <button onmouseover="myFunction()" class="dropbtn"><i class="fas fa-bars"></i></button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="HomePage.html">Home</a>
+              <a href="Page 1 - Cafes - Lucy.html">Cafes</a>
+              <a href="Page 2 - Resteraunts - Harriet.html">Restaurants</a>
+              <a href="Page 3 - Bars&pubs - Ele.html">Bars and Pubs</a>
+              <a href="Page 4 - Nightlife - Amy.html">Nightclubs</a>
+              <a href="Submit_feedback.html">Submit Review</a>
+            </div>
+          </div></li>
+    <div class="nav">
+        <li><a href="HomePage.html"> <i class="fas fa-home"></i> Home</a></li>
+        <li><a href="Page 1 - Cafes - Lucy.html"> <i class="fas fa-coffee"></i> Cafes</a></li>
+        <li><a href="Page 2 - Resteraunts - Harriet.html"> <i class="fas fa-utensils"></i> Restaurants</a></li>
+        <li><a href="Page 3 - Bars&pubs - Ele.html"><i class="fas fa-glass-martini-alt"></i> Bars and Pubs</a></li>
+        <li><a class="active" href="Page 4 - Nightlife - Amy.html"> <i class="fas fa-moon"></i> Nightlife</a></li>
+        <li><a href="Submit_feedback.html"> <i class="fas fa-comment-alt"></i> Submit Review</a></li>
+    </div>
+    
+    </ul>
+    </div>
+    </nav>
+    <div class="image-container_nightlife">
+        <div class="title_text">Top 5 Nightlife</div>
+      </div>
+
+    <main>
+        <h1>Pop Tarts</h1>
+        <p class="main_text">
+            Hosted at The Foundry inside the University of Sheffield’s Students Union, PopTarts is without a doubt the most popular student night out in Sheffield. Recurring every Saturday, their gimmick is playing exclusively cheesy hits, guaranteed to fill the dance floor to capacity every week; think Spice Girls, McFly, Smashmouth, ABBA, and so many more. This weekly event is almost always sold out, often with the £5.00 tickets being completely gone within their first hour on sale every Sunday morning, so make sure you act quick! 
+            <br>
+            <br>
+            <img src="poptarts.jpg" alt="Image of the club Pop Tarts" style="height:250px; width:500px; display: block; margin-left: auto; margin-right: auto;">
+            <br>
+            <a href="https://tickets.sheffieldstudentsunion.com/ents/eventlist/poptarts/"target="_blank"><i class="fab fa-internet-explorer"></i> Pop Tarts Website</a>
+            <a href="https://goo.gl/maps/TqgRvFmRxtZndtF97"target="_blank"><i class="fas fa-map-marker-alt"></i> Google Maps</a><br>
+        </p>
+        <hr>
+        
+        <h1>The Leadmill</h1>
+        <p class="main_text">
+            The Leadmill is without a doubt THE place to be for any lover of indie music. Acting as a comedy club, live music venue, occasional cinema, and popular club, The Leadmill almost certainly offers something for you. It is Sheffield’s longest running live music venue, having hosted the likes of Pulp, Coldplay, The Stone Roses, and Lewis Capaldi, while also offering highly popular nights out such as the monthly ‘Club Tropicana’ 80’s music night. Although less convenient for University of Sheffield Students, it is just a stone’s throw from Hallam, and is popular with the wider Sheffield community too. 
+            <br>
+            <br>
+            <img src="leadmill.jpg" alt="Image of the venue Leadmill" style="height:250px; width:500px; display: block; margin-left: auto; margin-right: auto;">
+            <br>
+            <a href="https://leadmill.co.uk/"target="_blank"><i class="fab fa-internet-explorer"></i> The Leadmill Website</a>
+            <a href="https://goo.gl/maps/nCH41Q2CYK5vWGdb9"target="_blank"><i class="fas fa-map-marker-alt"></i> Google Maps</a><br>
+        </p>
+        <hr>
+        
+        <h1>Code</h1>
+        <p class="main_text">
+            Having been nominated as Sheffield’s best club four years in a row, of course CODE must also be included on this list. As one of Sheffield’s largest clubbing spaces, CODE has established itself as a respected venue offering affordable nights out to fulfil all your chart and rap needs. It’s three weekly events - Student Saturdays, Jump Around on Thursdays, and Chaos every Tuesday - plus regularly hosting live performers and DJ sets makes CODE an incredibly popular venue, especially amongst non-student members of the community.
+            <br>
+            <br>
+            <img src="code.jpg" alt="Image of afe" style="height:250px; width:500px; display: block; margin-left: auto; margin-right: auto;">
+            <br>
+            <a href="https://codesheffield.com/"target="_blank"><i class="fab fa-internet-explorer"></i> Code Website</a>
+            <a href="https://goo.gl/maps/dP92dugHGws9edeo8"target="_blank"><i class="fas fa-map-marker-alt"></i> Google Maps</a><br>
+        </p>
+        <hr>
+        
+        <h1>Bierkeller</h1>
+        <p class="main_text">
+            This popular venue on Sheffield’s infamous West Street follows the well-known model of a German Oktoberfest themed bar, complete with large stein glasses and long wooden tables to be danced upon. A Sheffield bar crawl would be incomplete without this popular stop, well known for its inventive cocktails (particularly the suspiciously-green ‘Frogenstein’) and sing-along hits, which are loved by all, if admittedly a bit repetitive… Be prepared to leave with a few bruises as the floors do get slippy from all that spilled beer, and if at least one of your group doesn’t dance their way off a table, it won’t have been a successful night! 
+            <br>
+            <br>
+            <img src="beirkeller.jpg" alt="Image of the venue Beirkeller" style="height:250px; width:500px; display: block; margin-left: auto; margin-right: auto;">
+            <br>
+            <a href="https://sheffield.theoriginalbierkeller.com/"target="_blank"><i class="fab fa-internet-explorer"></i> Bierkeller Website</a>
+            <a href="https://g.page/theoriginalbierkellersheffield?share"target="_blank"><i class="fas fa-map-marker-alt"></i> Google Maps</a><br>
+        </p>
+        <hr>
+        
+        <h1>Corporation</h1>
+        <p class="main_text">
+            Lovingly known as Corp by its regulars, this venue hosts a wide range of entertaining nights out. Themes nights of musical choices include heavy rock, punk, or perhaps it’s most well-known Skool Disco, where patrons are encouraged to don school uniforms and dance the night away. The greatest advantage of this club is its three different floors of music, typically meaning there is something to suit anyone, on any given night. Cop is also known for its rainbow pints, in which three shots of vodka are mixed with one of seven vibrant mixers; patron beware, however, as attempting to ’complete the rainbow’ in one night can leave you with a rather sore head the next day…
+            <br>
+            <br>
+            <img src="corp.jpg" alt="Image of the club Corporation" style="height:250px; width:500px; display: block; margin-left: auto; margin-right: auto;">
+            <br>
+            <a href="https://www.corporation.org.uk/home"target="_blank"><i class="fab fa-internet-explorer"></i> Corporation Website</a>
+            <a href="https://goo.gl/maps/Ce5HN5rK6LaH9jD98"target="_blank"><i class="fas fa-map-marker-alt"></i> Google Maps</a><br>
+        </p>
+        <hr>
+    </main>
+
+</body>
+
+
+
+<footer>
+    <h5>Made with 🤍 by Lucy, Amy, Eleonora and Harriet @ Code First Girls</h5>
+    <h5><i class="fas fa-envelope"></i> Contact us: top5sheffield@gmail.com</h5>
+</footer>
+
+
+</html>

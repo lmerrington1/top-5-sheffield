@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Top 5 Sheffield</title>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="./groupproject.js"></script>
+  <script src="https://kit.fontawesome.com/a12bdcf857.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./groupproject.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+    <script>   
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+    </script>
+    <nav>
+        <div class="navbar">
+    <ul>
+        <li> <div class="dropdown">
+            <button onmouseover="myFunction()" class="dropbtn"><i class="fas fa-bars"></i></button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="HomePage.html">Home</a>
+              <a href="Page 1 - Cafes - Lucy.html">Cafes</a>
+              <a href="Page 2 - Resteraunts - Harriet.html">Restaurants</a>
+              <a href="Page 3 - Bars&pubs - Ele.html">Bars and Pubs</a>
+              <a href="Page 4 - Nightlife - Amy.html">Nightclubs</a>
+              <a href="Submit_feedback.html">Submit Review</a>
+            </div>
+          </div></li>
+    <div class="nav">
+        <li><a href="HomePage.html"> <i class="fas fa-home"></i> Home</a></li>
+        <li><a href="Page 1 - Cafes - Lucy.html"> <i class="fas fa-coffee"></i> Cafes</a></li>
+        <li><a class="active" href="Page 2 - Resteraunts - Harriet.html"> <i class="fas fa-utensils"></i> Restaurants</a></li>
+        <li><a href="Page 3 - Bars&pubs - Ele.html"><i class="fas fa-glass-martini-alt"></i> Bars and Pubs</a></li>
+        <li><a href="Page 4 - Nightlife - Amy.html"> <i class="fas fa-moon"></i> Nightlife</a></li>
+        <li><a href="Submit_feedback.html"> <i class="fas fa-comment-alt"></i> Submit Review</a></li>
+    </div>
+    </ul>
+    </div>
+    </nav>
+    <div class="image-container_resteraunt">
+        <div class="title_text">Top 5 Restaurants</div>
+      </div>
+
+    <main>
+        <h1>Let's Sushi</h1>
+        <p class="main_text">
+            Let’s Sushi is a well established small restaurant and takeaway service on Sheffield’s infamous West Street; 2020 saw the expansion of the brand into new premises which has changed the game entirely. Still offering their reliable high quality sushi for a remarkably low price, the new restaurant situated in the upscale West One plaza is stylish and modern. The wide selection of Japanese sake and unique cocktails are a great pairing to the food, which is always served promptly.
+            <br>
+            <br>
+            <img src="Let's Sushi.jpeg" alt="Image of Let's Sushi" style="height:250px; width:450px; display: block; margin-left: auto; margin-right: auto;">
+            <br>
+            <a href="https://www.letussushi.co.uk"target="_blank"><i class="fab fa-internet-explorer"></i> Let's Sushi Website</a>
+            <a href="https://goo.gl/maps/MQ3ffUckZogASubz5"target="_blank"><i class="fas fa-map-marker-alt"></i> Google Maps</a>
+            <a href="https://goo.gl/maps/CfQX1yFE2SBHyGv26"target="_blank"><i class="fas fa-map-marker-alt"></i> Google Maps</a><br>
+        </p>
+        <hr>
+        
+        <h1>Lucky Fox</h1>
+        <p class="main_text">
+            Situated in the indie hub of Division Street, Lucky Fox is an independent restaurant specialising in arguably Sheffield’s best fried chicken. Their  Chick’n’fries by far outshine any major chain competitors, while still offering a range of options perfect for other dietary requirements. The restaurant space itself has limited capacity, but is a cosy retreat with highly instgram-able urban indie styling.
+            <br>
+            <br>
+            <img src="Lucky Fox.jpg" alt="Image of Lucky Fox" style="height:250px; width:450px; display: block; margin-left: auto; margin-right: auto;">
+            <br>
+            <a href="http://www.theluckyfox.com"target="_blank"><i class="fab fa-internet-explorer"></i> Lucky Fox Website</a>
+            <a href="https://goo.gl/maps/3S6bFfJWQQHzbUS47"target="_blank"><i class="fas fa-map-marker-alt"></i> Google Maps</a><br>
+        </p>
+        <hr>
+        
+        <h1>Peddler Night Market</h1>
+        <p class="main_text">
+            Although not strictly a restaurant, the Peddler Night market is a fantastic food experience in Sheffield. Located in the historic and trendy heart of Kelham Island, the peddler market operates as a constantly evolving collective of independent food trucks and stalls. At the start of every month, the peddler warehouse hosts an atmospheric weekend of music, independent merch stalls, and invariably good food; any foodie would hate to miss the opportunity to sample a wide variety of cuisines. The only downside is that queues form quickly for the free entry event, and once a stall runs out of food - which most do - that’s it for the night!
+            <br>
+            <br>
+            <img src="Peddler.jpg" alt="Image of Peddler Night Market" style="height:250px; width:450px; display: block; margin-left: auto; margin-right: auto;">
+            <br>
+            <a href="https://peddlermarket.co.uk"target="_blank"><i class="fab fa-internet-explorer"></i> Peddler Market Website</a>
+            <a href="https://goo.gl/maps/qHnUDN3H5PKNSi4W7"target="_blank"><i class="fas fa-map-marker-alt"></i> Google Maps</a><br>
+        </p>
+        <hr>
+        
+        <h1>Napoli Centro</h1>
+        <p class="main_text">
+            Napoli Centro offers some of the finest, most authentic pizzas that Sheffield have to offer. At a very reasonable price, the extensive menu covers both classic and innovative  pizzas, cooked the Neapolitan way. The restaurant is located on Glossop road, near the university of Sheffield’s student union, making it a convenient and popular destination for students. One of Napoli’s best features is it’s personal, cosy atmosphere, as there are only a few tables inside, and (unfortunately for us) always book up in advance.
+            <br>
+            <br>
+            <img src="Napoli Centro.jpg" alt="Image of Napoli Centro" style="height:250px; width:450px; display: block; margin-left: auto; margin-right: auto;">
+            <br>
+            <a href="http://napolicentro.co.uk"target="_blank"><i class="fab fa-internet-explorer"></i> Napoli Centro Website</a>
+            <a href="https://goo.gl/maps/wSMKB9WJWxVVbRjQA "target="_blank"><i class="fas fa-map-marker-alt"></i> Google Maps</a><br>
+        </p>
+        <hr>
+        
+        <h1>Vito's Italian Restaurant</h1>
+        <p class="main_text">
+            A long-standing Sheffield establishment, Vito’s offers some of the finest Italian food, in a homely atmosphere. The upscale menu includes the fantastic crab ravioli, and a wide range of fine wine. Located in the residential area of Walkley, this independent restaurant is perhaps less well-known than others in Sheffield, but this contributes all the more to it’s friendly, personal atmosphere.
+            <br>
+            <br>
+            <img src="Vito's.jpg" alt="Image of Vito's Italian Restaurant" style="height:250px; width:450px; display: block; margin-left: auto; margin-right: auto;">
+            <br>
+            <a href="http://www.vitos.org.uk"target="_blank"><i class="fab fa-internet-explorer"></i> Vito's Website</a>
+            <a href="https://goo.gl/maps/xAFeDik4B68mSarR8"target="_blank"><i class="fas fa-map-marker-alt"></i> Google Maps</a><br>
+        </p>
+        <hr>
+    </main>
+
+</body>
+
+
+
+<footer>
+    <h5>Made with 🤍 by Lucy, Amy, Eleonora and Harriet @ Code First Girls</h5>
+    <h5><i class="fas fa-envelope"></i> Contact us: top5sheffield@gmail.com</h5>
+</footer>
+
+
+</html>

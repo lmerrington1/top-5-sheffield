@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Top 5 Sheffield</title>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="./groupproject.js"></script>
+  <script src="https://kit.fontawesome.com/a12bdcf857.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./groupproject.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+    <script>   
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+    </script>
+    <nav>
+        <div class="navbar">
+    <ul>
+        <li> <div class="dropdown">
+            <button onmouseover="myFunction()" class="dropbtn"><i class="fas fa-bars"></i></button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="HomePage.html">Home</a>
+              <a href="Page 1 - Cafes - Lucy.html">Cafes</a>
+              <a href="Page 2 - Resteraunts - Harriet.html">Restaurants</a>
+              <a href="Page 3 - Bars&pubs - Ele.html">Bars and Pubs</a>
+              <a href="Page 4 - Nightlife - Amy.html">Nightclubs</a>
+              <a href="Submit_feedback.html">Submit Review</a>
+            </div>
+          </div></li>
+      <div class="nav">
+        <li><a href="HomePage.html"> <i class="fas fa-home"></i> Home</a></li>
+        <li><a href="Page 1 - Cafes - Lucy.html"> <i class="fas fa-coffee"></i> Cafes</a></li>
+        <li><a href="Page 2 - Resteraunts - Harriet.html"> <i class="fas fa-utensils"></i> Restaurants</a></li>
+        <li><a href="Page 3 - Bars&pubs - Ele.html"><i class="fas fa-glass-martini-alt"></i> Bars and Pubs</a></li>
+        <li><a href="Page 4 - Nightlife - Amy.html"> <i class="fas fa-moon"></i> Nightlife</a></li>
+        <li><a class="active" href="Submit_feedback.html"> <i class="fas fa-comment-alt"></i> Submit Review</a></li>
+      </div>
+    </ul>
+    </div>
+    </nav>
+    <div class="image-container">
+        <div class="title_text">Submit a Reveiw</div>
+      </div>
+
+    <main>
+        <form action="/action_page.php" class="submit_review">
+          <h1>Submit your review</h1>
+          <hr>
+            <label for="fname">Which location did you visit?</label><br>
+            <select name="Venue" id="Venue">
+              <option value="Nam Song">Nam Song</option>
+              <option value="The Cabin">The Cabin</option>
+              <option value="Coffee Revolution">Coffee Revolution</option>
+              <option value="200 Degrees Coffee">200 Degrees Coffee</option>
+              <option value="The Steam Yard">The Steam Yard</option>
+              <option value="Lets Sushi">Lets Sushi</option>
+              <option value="Lucky Fox">Lucky Fox</option>
+              <option value="Peddler Night Market">Peddler Night Market</option>
+              <option value="Napoli Centro">Napoli Centro</option>
+              <option value="Vito’s Italian Restaurant">Vito’s Italian Restaurant</option>
+              <option value="Bungalows and bears">Bungalows and bears</option>
+              <option value="Bar one">Bar one</option>
+              <option value="Nottingham House">Nottingham House</option>
+              <option value="Hallamshire House">Hallamshire House</option>
+              <option value="Bloo 88">Bloo 88</option>
+              <option value="Pop Tarts">Pop Tarts</option>
+              <option value=" The Leadmill"> The Leadmill</option>
+              <option value="CODE">CODE</option>
+              <option value="Bierkeller">Bierkeller</option>
+              <option value="Corporation">Corporation</option>
+            </select><br><br>
+    
+            <label for="fname">Rating out of 5?</label>
+            <div class="rating">
+                <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span><br><br>
+                </div>
+            <label for="lname">How was the price? </label><br>
+            <input type="checkbox"><label for="vehicle3"> Rather Cheap    |</label><input type="checkbox"><label for="vehicle3"> About Right    |</label><input type="checkbox"><label for="vehicle3"> Too Expensive    </label><br><br>
+            <label for="lname">Any Comments? </label><br>
+            <textarea rows=10 cols=40></textarea><br><br>
+            <a href="Submitted.html"> Submit</a>
+          </form>
+    </main>
+
+</body>
+
+
+
+<footer>
+    <h5>Made with 🤍 by Lucy, Amy, Eleonora and Harriet @ Code First Girls</h5>
+    <h5><i class="fas fa-envelope"></i> Contact us: top5sheffield@gmail.com</h5>
+</footer>
+
+
+</html>
